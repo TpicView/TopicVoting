@@ -1,2 +1,2 @@
-# TopicVoting
+topic-vote
 Voting Platform 
