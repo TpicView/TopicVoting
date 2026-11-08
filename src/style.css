@@ -6,124 +6,63 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #111827;
-  color: #ffffff;
+  color: white;
 }
 
-.app {
-  max-width: 850px;
-  margin: auto;
-  padding: 24px 16px;
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #1f2937;
+  border-radius: 15px;
 }
 
-.header {
+h1 {
   text-align: center;
-  padding: 35px 10px;
-}
-
-.header h1 {
   color: #38bdf8;
-  font-size: 38px;
-  letter-spacing: 3px;
-}
-
-.header p {
-  color: #cbd5e1;
+  font-size: 36px;
 }
 
 h2 {
   color: #38bdf8;
 }
 
-.panel {
-  background: #1f2937;
-  padding: 22px;
-  margin: 20px 0;
-  border-radius: 14px;
-  border: 1px solid #374151;
+p {
+  line-height: 1.6;
 }
 
 input {
   width: 100%;
   padding: 14px;
   margin: 10px 0;
+  border: 1px solid #4b5563;
   border-radius: 8px;
-  border: 1px solid #475569;
-  background: #111827;
+  background: #374151;
   color: white;
   font-size: 16px;
 }
 
 button {
-  padding: 12px 18px;
-  margin: 8px 5px 8px 0;
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
   border: none;
   border-radius: 8px;
   background: #0284c7;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
 }
 
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+button:hover {
+  background: #0369a1;
 }
 
-button.secondary {
-  background: #475569;
-}
-
-.topic {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 0;
-  border-bottom: 1px solid #475569;
-}
-
-.topic p,
-.panel p {
-  color: #cbd5e1;
-}
-
-.status {
-  display: inline-block;
-  padding: 6px 10px;
-  border-radius: 20px;
-  font-size: 12px;
-  background: #475569;
-}
-
-.status.open {
-  background: #166534;
-}
-
-.status.closed {
-  background: #991b1b;
-}
-
-.message {
-  background: #1e3a5f;
-  padding: 14px;
-  border-radius: 8px;
-  overflow-wrap: anywhere;
-}
-
-footer {
-  text-align: center;
-  padding: 30px 10px;
-  color: #94a3b8;
-}
-
-@media (max-width: 550px) {
-  .header h1 {
-    font-size: 30px;
-  }
-
-  .topic {
-    align-items: flex-start;
-    flex-direction: column;
-  }
+.round {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
 }
